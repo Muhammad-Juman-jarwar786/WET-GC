@@ -5,19 +5,6 @@
     <link rel="stylesheet" href="./themes-cdn-14.4.0-gcweb/css/theme.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
-        .hero {
-            background-image: url('https://marketplace.canva.com/EAEcPz5qotw/3/0/1600w/canva-blog-banner-for-website-content-MqPNJu3HBz8.jpg');
-            height: 70vh;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            position: relative;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: white;
-            text-align: center;
-        }
     .footer {
         background-color: #343a40;
         color: #fff;
@@ -41,7 +28,7 @@
     }
     </style>
 </head>
-<body>
+<body style="overflow-x: hidden;">
     <header>
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container-fluid">
@@ -64,114 +51,86 @@
         </div>
     </nav>
 </header>
-    <div class="hero" style="margin-top: 50px;">
-    </div>
-    <h1 style="text-align: center;">Articles de blog</h1>
+    <!-- <h1 style="text-align: center;  margin-top: 60px;">Recommandations en matière d'accessibilité</h1>
 <div class="container" style="margin-top: 40px;">
     <div class="row" style="margin-top: 10px;">
         <div class="col-md-4" style="margin-top: 10px; box-shadow: 2px 2px 2px 2px gray;">
             <div class="card">
-                <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt5YLq-yfRjooT3cuubkJ339-7XGNlYP-sig&usqp=CAU" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Blog Post Title 1</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Read More</a>
+                    <h5 class="card-title">Texte alternatif pour les images</h5>
+                    <p class="card-text">Le texte alternatif est une brève description des images présentes sur votre site Web. Il aide les utilisateurs malvoyants à comprendre le contenu de l’image. Lorsque vous rédigez un texte alternatif, soyez précis et descriptif, mais aussi concis. Par exemple, au lieu de « chat », utilisez « un chat noir assis sur une chaise rouge ».</p>
+                    <a href="#" class="btn btn-primary">En savoir plus</a>
                 </div>
             </div>
         </div>
         <div class="col-md-4" style="margin-top: 10px; box-shadow: 2px 2px 2px 2px gray;">
             <div class="card">
-                <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt5YLq-yfRjooT3cuubkJ339-7XGNlYP-sig&usqp=CAU" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Blog Post Title 1</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Read More</a>
+                    <h5 class="card-title">Navigation au clavier</h5>
+                    <p class="card-text">Certains utilisateurs peuvent ne pas être en mesure d'utiliser une souris et se fier à la navigation au clavier. Assurez-vous que tous les éléments interactifs de votre site Web sont accessibles en utilisant uniquement le clavier. Cela inclut les liens, les boutons, les formulaires, etc. Fournissez également un indicateur de focus visible afin que les utilisateurs puissent facilement voir sur quel élément ils se trouvent actuellement.</p>
+                    <a href="#" class="btn btn-primary">En savoir plus</a>
                 </div>
             </div>
         </div>
         <div class="col-md-4" style="margin-top: 10px; box-shadow: 2px 2px 2px 2px gray;">
             <div class="card">
-                <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt5YLq-yfRjooT3cuubkJ339-7XGNlYP-sig&usqp=CAU" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Blog Post Title 1</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Read More</a>
+                    <h5 class="card-title">Rapports de contraste</h5>
+                    <p class="card-text">Des taux de contraste élevés entre les couleurs du texte et de l’arrière-plan peuvent grandement améliorer la lisibilité, en particulier pour les utilisateurs malvoyants. Les directives pour l'accessibilité du contenu Web (WCAG) recommandent un rapport de contraste d'au moins 4,5:1 pour le texte normal et de 3:1 pour le texte volumineux.</p>
+                    <a href="#" class="btn btn-primary">En savoir plus</a>
                 </div>
             </div>
         </div>
         <div class="col-md-4" style="margin-top: 10px; box-shadow: 2px 2px 2px 2px gray;">
             <div class="card">
-                <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt5YLq-yfRjooT3cuubkJ339-7XGNlYP-sig&usqp=CAU" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Blog Post Title 1</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Read More</a>
+                    <h5 class="card-title">Formulaires accessibles</h5>
+                    <p class="card-text">Les formulaires sont un élément commun sur de nombreux sites Web, mais ils peuvent poser des problèmes d'accessibilité. Assurez-vous que tous les champs du formulaire sont étiquetés de manière appropriée afin que les lecteurs d'écran puissent les lire. Fournissez également des messages d'erreur clairs et utiles afin que les utilisateurs sachent ce qui ne va pas et comment y remédier.</p>
+                    <a href="#" class="btn btn-primary">En savoir plus</a>
                 </div>
             </div>
         </div>
         <div class="col-md-4" style="margin-top: 10px; box-shadow: 2px 2px 2px 2px gray;">
             <div class="card">
-                <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt5YLq-yfRjooT3cuubkJ339-7XGNlYP-sig&usqp=CAU" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Blog Post Title 1</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Read More</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4" style="margin-top: 10px; box-shadow: 2px 2px 2px 2px gray;">
-            <div class="card">
-                <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt5YLq-yfRjooT3cuubkJ339-7XGNlYP-sig&usqp=CAU" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Blog Post Title 1</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Read More</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4" style="margin-top: 10px; box-shadow: 2px 2px 2px 2px gray;">
-            <div class="card">
-                <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt5YLq-yfRjooT3cuubkJ339-7XGNlYP-sig&usqp=CAU" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Blog Post Title 1</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Read More</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4" style="margin-top: 10px; box-shadow: 2px 2px 2px 2px gray;">
-            <div class="card">
-                <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt5YLq-yfRjooT3cuubkJ339-7XGNlYP-sig&usqp=CAU" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Blog Post Title 1</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Read More</a>
+                    <h5 class="card-title">Rôles ARIA</h5>
+                    <p class="card-text">Les rôles ARIA (Accessible Rich Internet Applications) peuvent être utilisés pour améliorer l'accessibilité du contenu dynamique et des contrôles de l'interface utilisateur, en particulier ceux créés avec JavaScript. Ils fournissent des informations supplémentaires sur le rôle, l’état et les propriétés d’un élément, qui peuvent être lues par les technologies d’assistance.</p>
+                    <a href="#" class="btn btn-primary">En savoir plus</a>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<h2 style="text-align: center;">Abonnez-vous à notre newsletter</h2>
-<div class="container" style="background-color: coral; margin-top: 40px;">
-    <div class="row">
-        <div class="col-md-6">
-            <h2>Newsletter</h2>
-            <p>Stay updated with our latest news and updates. Subscribe to our newsletter.</p>
-            <form>
-                <div class="form-group">
-                    <label for="email">Email address:</label>
-                    <input type="email" class="form-control" id="email">
-                </div>
-                <button type="submit" class="btn btn-default">Subscribe</button>
-            </form>
-        </div>
-        <div class="col-md-6">
-            <!-- You can add an image here -->
-            <img src="https://img.freepik.com/premium-vector/concept-newsletter_118813-9660.jpg" alt="Newsletter Image" style="width:100%;">
-        </div>
-    </div>
-</div>
-<footer class="footer" style="margin-top: 40px;">
+</div> -->
+
+<section style="margin-bottom: 100px; margin-top: 100px; margin-left: 50px;" class="gc-srvinfo">
+	<h1>Recommandations en matière d'accessibilité</h1>
+		<div class="wb-eqht row">
+            <div class="col-md-5">
+                <h3><a href="#">Texte alternatif pour les images</a></h3>
+                <p>Le texte alternatif est une brève description des images présentes sur votre site Web. Il aide les utilisateurs malvoyants à comprendre le contenu de l’image. Lorsque vous rédigez un texte alternatif, soyez précis et descriptif, mais aussi concis. Par exemple, au lieu de « chat », utilisez « un chat noir assis sur une chaise rouge ».</p>
+            </div>
+	        <div class="col-md-5">
+			    <h3><a href="#">Navigation au clavier</a></h3>
+			    <p>Certains utilisateurs peuvent ne pas être en mesure d'utiliser une souris et se fier à la navigation au clavier. Assurez-vous que tous les éléments interactifs de votre site Web sont accessibles en utilisant uniquement le clavier. Cela inclut les liens, les boutons, les formulaires, etc. Fournissez également un indicateur de focus visible afin que les utilisateurs puissent facilement voir sur quel élément ils se trouvent actuellement.</p>
+		    </div>
+	        <div class="col-md-5">
+                <h3><a href="#">Rapports de contraste</a></h3>
+                <p>Des taux de contraste élevés entre les couleurs du texte et de l’arrière-plan peuvent grandement améliorer la lisibilité, en particulier pour les utilisateurs malvoyants. Les directives pour l'accessibilité du contenu Web (WCAG) recommandent un rapport de contraste d'au moins 4,5:1 pour le texte normal et de 3:1 pour le texte volumineux.</p>
+    		</div>
+	        <div class="col-md-5">
+			    <h3><a href="#">Formulaires accessibles</a></h3>
+			    <p>Les formulaires sont un élément commun sur de nombreux sites Web, mais ils peuvent poser des problèmes d'accessibilité. Assurez-vous que tous les champs du formulaire sont étiquetés de manière appropriée afin que les lecteurs d'écran puissent les lire. Fournissez également des messages d'erreur clairs et utiles afin que les utilisateurs sachent ce qui ne va pas et comment y remédier.</p>
+		    </div>
+	        <div class="col-md-5">
+			    <h3><a href="#">Rôles ARIA</a></h3>
+			    <p>Les rôles ARIA (Accessible Rich Internet Applications) peuvent être utilisés pour améliorer l'accessibilité du contenu dynamique et des contrôles de l'interface utilisateur, en particulier ceux créés avec JavaScript. Ils fournissent des informations supplémentaires sur le rôle, l’état et les propriétés d’un élément, qui peuvent être lues par les technologies d’assistance.</p>
+		    </div>
+	    </div>
+	</div>
+</section>
+
+<!-- Footer section -->
+<footer class="footer" style="margin-top: 100px;">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
